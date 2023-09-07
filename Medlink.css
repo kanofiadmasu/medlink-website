@@ -65,7 +65,7 @@ body {
 }
 .toggle-menu  {
     position: absolute;
-    top: 5rem;
+    top: 4.5rem;
     right: 2.25rem;
     display: none;
     flex-direction: column;
@@ -154,7 +154,7 @@ body {
 }
  @keyframes vision { 
     0% {
-     top: -300px;
+     top: -600px;
     }
     100% {
      top: 0px;
@@ -191,12 +191,14 @@ body {
          left: 0px;
      }
 }
+
+
 @media (max-width: 800px) {
     .Info-conatiner {
         width: auto;
         height: auto;
-        display: block;
         margin: 10px;
+        padding: 0;
 
     }
   .Info-conatiner div {
@@ -205,16 +207,9 @@ body {
     margin: 10px 60px;
     position: relative;   
 } 
-/*   .Info-conatiner .vision {
-    animation: none;
 }
-  .Info-conatiner .mission {
-    animation: none;
-  }
-  .Info-conatiner .values {
-    animation: none;
-  } */
-}
+/*Second media query for more smaller divices*/
+
 @media (max-width: 300px) {
     .Info-conatiner {
         width: 100%;
@@ -229,57 +224,50 @@ body {
     margin: 10px 5px;
     position: relative;   
 } 
-  .Info-conatiner .vision {
-    animation: none;
-}
-  .Info-conatiner .mission {
-    animation: none;
-  }
-  .Info-conatiner .values {
-    animation: none;
-  }
   .Info-conatiner div article {
     font-size: var(--small-font-size);
   }
 }
-
 /* Ending of Info section */
 
 /* About us section */
 .about-us {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
-    width: 100%;
+   
 }
 .about-us-header {
-    margin-left: 200px;
+    text-align: center;
     font-size: var(--big-font-size);
+    font-weight: 400;
     color: whitesmoke;
-    
 }
-.main-accordion-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
+.accordion-container {
+    width: 700px;
+    margin-bottom: 50px;
+}
+@media (max-width: 300px) {
+    .about-us {
+        align-items: center;
+        width: auto;
+    } 
 }
 .accordion-container .tab .content ul li {
     list-style: none;
     color:var(--paragraph-text-color);
     font-size: var(--h3-font-size);
-
 }
-.accordion-container {
-    max-width: 1000px;
+ .main-accordion-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 200px;
-    margin-bottom: 50px;
-}
+    align-items: center;
+    justify-content: center;
+} 
 .accordion-container .tab .label h2 {
     font-size: var(--normal-font-size);
     color: var(--paragraph-text-color);
@@ -325,6 +313,7 @@ body {
     padding: 5px;
     overflow-y: hidden;
 }
+
 /* Accordion is ended */
 /* Registration Section */
 
@@ -332,9 +321,13 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+}
+.wrapper-form-container {
+    position: relative;
+    left: 100px;
 }
 .registaration-container h2 {
     text-align: center;
@@ -393,8 +386,8 @@ body {
 /* registaration-form-ended */
 /* braking-line */
 .braking-line {
-   width: auto;
-   margin: 50px;
+    width: auto;
+    margin: 50px;
    background-color: var(--title-main-color);
 
 }
@@ -436,15 +429,15 @@ font-size: var(--h1-font-size);
 .home-section-button {
     position: absolute;
     top: 5rem;
-    right: 5rem;
+    right: 1rem;
 }
 @media (max-width: 300px) {
     .home-section-button {
         position: absolute;
         top: 4rem;
-        right: 2rem;
+        right: 1.5rem;
     }
-}       
+}
 .home-section-button button  {
     background-color: #222;
     border-style: none;
