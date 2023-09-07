@@ -65,7 +65,7 @@ body {
 }
 .toggle-menu  {
     position: absolute;
-    top: 3rem;
+    top: 5rem;
     right: 2.25rem;
     display: none;
     flex-direction: column;
