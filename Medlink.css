@@ -446,6 +446,14 @@ font-size: var(--h1-font-size);
         padding: 10px 5px;
         font-size: var(--small-font-size);
     }
+        .Info-conatiner div article ul {
+        padding: 10px 5px;
+        font-size: var(--smaller-font-size);
+    }
+    .Info-conatiner div article ul  li {
+        padding: 10px 5px;
+        font-size: var(--smaller-font-size);
+    }
     /* infocontainer ended */
     /* .main-accordion-container {
         align-items: center;
