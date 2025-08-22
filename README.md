@@ -5,9 +5,9 @@ This is a sample landing page was built in 2023, for a non-profit association ca
 
 ## Technologies used to build
 Simple web technologies were used to model this landing page.
-    1. HTML
-    2. CSS
-    3. JavaScript
+    1. HTML  
+    2. CSS  
+    3. JavaScript  
 
 ### Features of Landing Page
 The pourpose of this page was to increase online visibility and awareness. Thus, the main features of this page revolves around features that can increase the awareness of the asscociation.
