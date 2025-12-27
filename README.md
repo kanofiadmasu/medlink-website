@@ -1,7 +1,7 @@
 # MedLink 
 
 ## Pourpose of the Webpage
-This is a ***sample*** landing page that was built in 2023 for a non-profit association called Addis-Medlink. The organization aims to provide financial and medical support for people living with chronic medical illnesses who also lack the financial means to support themselves. 
+This is a ***sample*** landing page that was built in September 2023 for a non-profit association called Addis-Medlink. The organization aims to provide financial and medical support for people living with chronic medical illnesses who also lack the financial means to support themselves. 
 
 This landing page was built as a prototype for the main version of the landing page. 
 
