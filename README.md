@@ -21,7 +21,11 @@ This are:
     1. Information(Mission and Vision)   
     2. About us  
     3. Means for contacting the organization
-        
+
+## Deployment
+
+This landing page is deployed on github as it was a simple static page.  
+
 --- 
 
 This is my first ever usefull and real project. 
