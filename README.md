@@ -18,13 +18,12 @@ The landing page is designed to be responsive accross multiple divices like mobl
 The pourpose of this page was to increase online visibility and awareness. Therefore, the main features of this page revolves around features that can increase the awareness and mission of the orgnization.
 This are:
 
-    1. Information(Mission and Vision)   
-    2. About us  
+    1. Providing information(Mission and Vision)   
+    2. About Us 
     3. Means for contacting the organization
 
 ## Deployment
-
-This landing page is deployed on github as it was a simple static page.  
+This landing page is deployed on vercel and with a custom domain name.
 
 --- 
 
