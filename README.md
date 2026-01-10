@@ -23,7 +23,7 @@ This are:
     3. Means for contacting the organization
 
 ## Deployment
-This landing page is deployed on vercel and with a custom domain name.
+This landing page is deployed on vercel. 
 
 --- 
 
